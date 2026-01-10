@@ -59,7 +59,7 @@ nav .menu a{
 .right-side{
     padding-top: 8px;
 }
-section{
+.hero-container{
 position: relative;
 justify-content: center;
 /* padding: 115px 120px 180px 120px;
@@ -118,4 +118,62 @@ p{
     border: 1px solid white;
     cursor: pointer;
     margin-left: 16px;
+}
+
+.notes{
+    width: 86%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-notes h2{
+   font-size: 48px;
+   font: bold;
+   color: #001931;
+   margin-bottom: 16px;
+   height: 116px;
+   /* border: 1px solid red; */
+   padding-top: 64px;
+}
+.main-notes p{
+    color: #627382;
+    margin-bottom: 44px;
+    font-size: 16px;
+}
+.all-card{
+    display: flex;
+    /* justify-content: center; */
+    gap: 24px;
+    /* flex-wrap: wrap; */
+}
+  .card{
+    color: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px #00000013;
+    border-radius: 8px;
+    padding: 30px 20px;
+    width: 322px;
+    height: 300px;
+} 
+.card h3 {
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card p {
+    font-size: 16px;
+    color: #627382;
+}
+.card-icon {
+    background-color: #F95555; 
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 16px;
+}
+.card-icon img {
+    width: 32px;
+    height: 32px;
 }
