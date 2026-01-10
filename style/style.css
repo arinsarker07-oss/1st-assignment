@@ -14,7 +14,6 @@ header{
 nav{
 width: 86%;
 max-width: 1360px;
-/* border: 1px solid red; */
 margin: 0 auto;
 display: flex;
 justify-content: space-between;
@@ -44,18 +43,75 @@ nav .menu a{
   font-size: 16px;
   color: #000000;
 }
-.btn {
+.btn{
     background-color: #469165;
     color: white;
     padding: 12.5px 16px;
     border-radius: 4px;
-    font-weight: 600;
-    font-style: 600px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    align-items: flex-end;
 } 
 .right-side{
     padding-top: 8px;
+}
+section{
+position: relative;
+justify-content: center;
+/* padding: 115px 120px 180px 120px;
+margin: 0 auto; */
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+background-image: url(../assets/hero-bg.png); 
+background-size: cover;
+background-position: center ;
+overflow: hidden;
+width: 1600px;
+height: 674px;
+display: flex;
+
+}
+.hero-content{
+position: relative;
+width: 86%;
+max-width: 1360px;
+padding:  115px 120px 180px 120px;
+margin-top: 0px;
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  background: #FFFFFF;
+  color: #469165;
+  padding: 12px 8px;
+  border-radius: 10000px;
+  font-size: 16px;
+  border: 1px solid #FFFFFF;
+  margin-bottom: 16px;
+  max-width: 229px;
+}
+h1{
+    line-height: 84px;
+    font-size: 72px;
+    font: bold;
+    margin-bottom: 16px;
+}
+.highlight{
+    color: #30B868;
+}
+p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.btn2{
+    background-color: transparent;
+    color: white;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-left: 16px;
 }
