@@ -259,3 +259,54 @@ p{
     padding-top: 16px;
     padding-bottom: 45px ;
 }
+.footer-container {
+  background-color: #001931;
+  color: white;
+  padding: 120px 120px 30px 120px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.main-logo {
+  height: 60px;
+  width: auto;
+}
+
+.social-section {
+  text-align: right;
+}
+
+.social-title {
+  font-size: 20px;
+  font: 500;
+  margin-bottom: 16px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+.social-icons a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-line {
+  border: 0;
+  border-top: .5px solid #627382;
+  margin-bottom: 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 16px;
+  color: #FAFAFA
+}
