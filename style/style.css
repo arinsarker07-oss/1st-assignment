@@ -10,6 +10,8 @@
 /* main style */
 header{
     padding-top: 16px;
+    width: 100%;
+    height: auto;
 }
 nav{
 width: 86%;
@@ -19,7 +21,7 @@ display: flex;
 justify-content: space-between;
 }
 header{
-    width: 1600px;
+    width: 100%;
     height: 92px;
 }
 .logo{
@@ -42,11 +44,6 @@ nav .menu a{
   gap: 32px;
   align-items: center;
 }
-.menu a{
-  text-decoration: none;
-  font-size: 16px;
-  color: #000000;
-}
 .btn{
     background-color: #469165;
     color: white;
@@ -56,22 +53,30 @@ nav .menu a{
     border: none;
     cursor: pointer;
 } 
+.btn:hover{
+    background-color: #001931;
+    transform: translateY(-3px);
+    box-shadow:0 5px 15px #1a2936 (0,0,0,0.5);
+}
+.btn2:hover{
+    background-color: #844613;
+    transform: translateY(-3px);
+    box-shadow:0 5px 15px #1a2936 (0,0,0,0.5);
+}
 .right-side{
     padding-top: 8px;
 }
 .hero-container{
 position: relative;
 justify-content: center;
-/* padding: 115px 120px 180px 120px;
-margin: 0 auto; */
 align-items: center;
 text-align: center;
 color: #FFFFFF;
-background-image: url(../assets/hero-bg.png); 
+background-image: url(../assets/hero-bg.png);
 background-size: cover;
 background-position: center ;
 overflow: hidden;
-width: 1600px;
+width: 100%;
 height: 674px;
 display: flex;
 
@@ -88,13 +93,14 @@ margin-top: 0px;
   align-items: center;
   background: #FFFFFF;
   color: #469165;
-  padding: 12px 8px;
+  padding: 8px 12px;
   border-radius: 10000px;
   font-size: 16px;
   border: 1px solid #FFFFFF;
   margin-bottom: 16px;
   max-width: 229px;
 }
+
 h1{
     line-height: 84px;
     font-size: 72px;
@@ -121,7 +127,7 @@ p{
 }
 
 .notes{
-    width: 86%;
+    width: 90%;
     max-width: 1360px;
     margin: 0 auto;
     text-align: center;
@@ -142,9 +148,7 @@ p{
 }
 .all-card{
     display: flex;
-    /* justify-content: center; */
     gap: 24px;
-    /* flex-wrap: wrap; */
 }
   .card{
     color: #FFFFFF;
@@ -154,6 +158,9 @@ p{
     width: 322px;
     height: 300px;
 } 
+.card:hover{
+    transform: translateY(-10px);
+}
 .card h3 {
     font-size: 24px;
     color: #001931;
@@ -180,7 +187,7 @@ p{
 
 .second-container {
     margin-top: 120px;
-    margin-left: 120px;
+    margin: 0 auto;
     max-width: 1360px;
     display: flex;
     justify-content: center;
@@ -233,7 +240,7 @@ p{
     border: 1px solid #F7F6F2;
     background-color: #F7F6F2;
     margin-top: 2px;
-    margin-left: 120px;
+    margin:0 auto;
     margin-top: 120px;
     margin-bottom: 120px;
     text-align: center;
